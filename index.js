@@ -1,33 +1,32 @@
-function add(x, y) {
-    return x + y;
-  }
+function add (x,y) {
+return (x + y)
+}
 
-function subtract(x, y) {
-    return x - y;
-  }
+function subtract (a,b) {
+return (a - b)
+}
 
-function multiply(x, y) {
-    return x * y;
-  }
+function multiply (a,b) {
+  return (a*b)
+}
 
-function divide(x, y) {
-    return x / y;
-  }
+function divide (a,b) {
+return (a/b)
+}
 
-// continue here
-function increment(n) {
-    return (n += 1);
-  }
+function increment (n) {
+  return (++n)
+}
 
-function decrement(n) {
-    return (n -= 1);
-  }
+function decrement (n) {
+  return (--n)
+}
 
-function makeInt(n){
-    return parseInt(n, 10);
-    }
+function makeInt (n) {
+  return parseInt(n, 10)
+  
+}
 
-function preserveDecimal(n){
-    return parseFloat(n);
-    }
-    
+function preserveDecimal(n) {
+  return parseFloat(n)
+}
